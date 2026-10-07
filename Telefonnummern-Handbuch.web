@@ -1,0 +1,19 @@
+return function(pos, player_name)
+    return "size[8,8]" ..
+           "label[0.5,0.5;=== OFFIZIELLES TELEFONBUCH ===]" ..
+           "textlist[0.5,1.2;7,6;numbers;" ..
+           "Polizei: 110," ..
+           "Feuerwehr: 112," ..
+           "Rettungsdienst / Notarzt: 112," ..
+           "Bundeswehr / Kasernen-Wache: 555-0100," ..
+           "Stadtverwaltung / Rathaus: 555-1000," ..
+           "Einwohnermeldeamt: 555-1001," ..
+           "Bank Nord: 555-2000," ..
+           "Apotheke: 555-3000," ..
+           "Krankenhaus Zentrale: 555-3001," ..
+           "Postamt: 555-4000," ..
+           "Bäckerei: 555-5000," ..
+           "Supermarkt: 555-5001," ..
+           "Handwerker / Pannennotdienst: 555-6000," ..
+           "Taxi-Zentrale: 555-7000]"
+end
